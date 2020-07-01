@@ -1,4 +1,4 @@
-## mini_fresh_cup_frontend
+## blue-cup
 
 简易版新生杯前端
 

@@ -1,0 +1,49 @@
+.login-container {
+  width: 100vw;
+  height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .login-card {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px -5px grey,
+        0px 0px 0px grey,
+        0px 2px 6px grey,
+        0px 2px 0px grey;
+    .wrapper {
+      overflow: hidden;
+      .form-container {
+        width: 200%;
+        display: flex;
+        overflow: hidden;
+        transition: all .5s;
+        &.user {
+          transform: translateX(0);
+        }
+        &.admin {
+          transform: translateX(-50%);
+        }
+        .login-form {
+          width: 50%;
+          .animation-item {
+            transition: height .5s;
+          }
+          .email-input {
+            margin-bottom: 20px;
+          }
+          .register-button {
+            float: right;
+          }
+          .button-container {
+            margin-top: 40px;
+            .login-button {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    
+  }
+}
